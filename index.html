@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siddharth Saravanan - MS Data Science student specializing in machine learning, feature engineering, and data analytics. View my portfolio, projects, and experience.">
+    <meta name="keywords" content="data science, machine learning, python, data analytics, portfolio, siddharth saravanan">
+    <meta name="author" content="Siddharth Saravanan">
+    
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="Siddharth Saravanan - Data Science Portfolio">
+    <meta property="og:description" content="MS Data Science student focused on supervised ML, feature engineering pipelines, and reproducible workflows.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:image" content="https://yourportfolio.com/assets/og-image.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Siddharth Saravanan - Data Science Portfolio">
+    <meta name="twitter:description" content="MS Data Science student focused on supervised ML, feature engineering pipelines, and reproducible workflows.">
+    
+    <title>Siddharth Saravanan - Data Science Portfolio</title>
+    
+    <!-- Google Fonts - Badass Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Siddharth Saravanan",
+        "jobTitle": "MS Data Science Student",
+        "telephone": "+1-202-743-9829",
+        "email": "siddharthsaravanan27@gmail.com",
+        "url": "https://yourportfolio.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/siddharth-saravanan/",
+            "https://github.com/siddharth-spyder"
+        ],
+        "alumniOf": [
+            {
+                "@type": "EducationalOrganization",
+                "name": "The George Washington University",
+                "location": "Washington, DC"
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "Velammal Engineering College",
+                "location": "Chennai, India"
+            }
+        ],
+        "knowsAbout": ["Data Science", "Machine Learning", "Python", "Feature Engineering", "Data Analytics"]
+    }
+    </script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand badass-brand" href="#home">
+                <span class="brand-text">SIDDHARTH</span>
+                <span class="brand-accent">SARAVANAN</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section badass-hero">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-particles"></div>
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-8">
+                        <div class="hero-content">
+                            <div class="hero-badge mb-4">
+                                <span class="badge-text">DATA SCIENTIST</span>
+                            </div>
+                            <h1 class="hero-title mb-4">
+                                <span class="title-line-1">SIDDHARTH</span>
+                                <span class="title-line-2">SARAVANAN</span>
+                            </h1>
+                            <h2 class="hero-subtitle mb-4">MS Data Science Student</h2>
+                            <p class="lead mb-4">
+                                <i class="bi bi-geo-alt me-2"></i>Washington, DC
+                            </p>
+                            <p class="hero-description mb-5">
+                                <span class="highlight-text">TRANSFORMING DATA</span> into actionable insights through 
+                                <span class="highlight-text">MACHINE LEARNING</span> and reproducible workflows.
+                            </p>
+                            <div class="hero-buttons mb-5">
+                                <a href="assets/resume.pdf" class="btn badass-btn-primary me-3" target="_blank" rel="noopener" aria-label="Download Resume">
+                                    <i class="bi bi-download me-2"></i>Resume
+                                </a>
+                                <a href="mailto:siddharthsaravanan27@gmail.com" class="btn badass-btn-outline" aria-label="Send Email">
+                                    <i class="bi bi-envelope me-2"></i>Email
+                                </a>
+                            </div>
+                            <div class="hero-social">
+                                <a href="https://www.linkedin.com/in/siddharth-saravanan/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/siddharth-spyder" class="social-link" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="tel:+12027439829" class="social-link phone-link" aria-label="Call Phone Number">
+                                    <i class="bi bi-telephone"></i>
+                                    <span class="phone-text">+1-202-743-9829</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="hero-image">
+                            <div class="profile-container">
+                                <div class="profile-glow"></div>
+                                <img src="public/portfolio.jpg" alt="Siddharth Saravanan - Data Science Portfolio" class="profile-img">
+                                <div class="profile-border"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding badass-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">01.</span>
+                            <span class="title-text">ABOUT ME</span>
+                        </h2>
+                        <div class="about-content">
+                            <p class="about-text text-center">
+                                MS Data Science student focused on supervised ML, feature engineering pipelines, and reproducible workflows. 
+                                Experienced with Python/R, SQL, and cloud (AWS/GCP). I enjoy turning messy, mixed-type data into decision-ready 
+                                models with clear documentation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-padding badass-section-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">02.</span>
+                            <span class="title-text">EDUCATION</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card badass-card education-card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="education-icon me-3">
+                                        <i class="bi bi-mortarboard-fill fs-2 text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="card-title mb-1">The George Washington University</h5>
+                                        <h6 class="card-subtitle text-primary mb-2">M.S. Data Science</h6>
+                                        <p class="card-text text-muted">Aug 2024 – May 2026</p>
+                                        <p class="card-text"><strong>GPA:</strong> 3.83</p>
+                                    </div>
+                                </div>
+                                <div class="coursework">
+                                    <h6 class="mb-2">Coursework:</h6>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <span class="badge bg-secondary">Cloud Computing</span>
+                                        <span class="badge bg-secondary">Big Data Analytics</span>
+                                        <span class="badge bg-secondary">Machine Learning</span>
+                                        <span class="badge bg-secondary">Data Warehousing</span>
+                                        <span class="badge bg-secondary">Data Mining</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card badass-card education-card h-100">
+                            <div class="card-body">
+                                <div class="d-flex align-items-start mb-3">
+                                    <div class="education-icon me-3">
+                                        <i class="bi bi-mortarboard-fill fs-2 text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="card-title mb-1">Velammal Engineering College</h5>
+                                        <h6 class="card-subtitle text-primary mb-2">B.E. Computer Science</h6>
+                                        <p class="card-text text-muted">Aug 2018 – Apr 2022</p>
+                                        <p class="card-text"><strong>GPA:</strong> 8.36</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding badass-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">03.</span>
+                            <span class="title-text">PROJECTS</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card badass-card project-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Image Steganalysis: Detect Hidden Information with ML</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Bitcamp Hackathon (Apr 2025)</h6>
+                                <p class="card-text">ML system to detect hidden messages in images; reproducible Python pipeline; benchmarked LR/RF/XGBoost with AUC/PR-AUC; feature importance for explainability; built in 36 hours.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-primary me-1">Python</span>
+                                    <span class="badge bg-primary me-1">scikit-learn</span>
+                                    <span class="badge bg-primary me-1">XGBoost</span>
+                                    <span class="badge bg-primary me-1">HOG/entropy features</span>
+                                </div>
+                                <button class="btn badass-btn-outline" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card badass-card project-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Dating Platform Behavior & Prediction Analysis</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">GWU (Nov–Dec 2024)</h6>
+                                <p class="card-text">Analyzed 60K+ records; engineered features; trained predictive models; packaged replicable R pipeline with 15+ visuals for insights.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-info me-1">R</span>
+                                    <span class="badge bg-info me-1">ggplot2</span>
+                                    <span class="badge bg-info me-1">dplyr</span>
+                                </div>
+                                <button class="btn badass-btn-outline" data-bs-toggle="modal" data-bs-target="#project2Modal">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card badass-card project-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Virtual Police Station</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Capstone (Jul 2021–Apr 2022)</h6>
+                                <p class="card-text">Web app for digital crime reporting; structured intake & normalization pipeline improved accessibility and reduced manual effort vs. in-person filing.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-warning text-dark me-1">HTML</span>
+                                    <span class="badge bg-warning text-dark me-1">CSS</span>
+                                    <span class="badge bg-warning text-dark me-1">JavaScript</span>
+                                    <span class="badge bg-warning text-dark me-1">PHP</span>
+                                </div>
+                                <button class="btn badass-btn-outline" data-bs-toggle="modal" data-bs-target="#project3Modal">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card badass-card project-card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Eye on the Road</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Velammal (Aug–Dec 2019)</h6>
+                                <p class="card-text">Route-planning app using MapMyIndia API to detect potholes, helping users avoid disruptions and plan efficient commutes.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-success me-1">Web App</span>
+                                    <span class="badge bg-success me-1">APIs</span>
+                                </div>
+                                <button class="btn badass-btn-outline" data-bs-toggle="modal" data-bs-target="#project4Modal">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-padding badass-section-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">04.</span>
+                            <span class="title-text">EXPERIENCE</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="badass-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5>Student Administrative Assistant</h5>
+                                    <h6 class="text-primary">The George Washington University</h6>
+                                    <p class="text-muted">Jan 2024 – Present</p>
+                                    <p>Structured operational data for safety/logistics; contributed to process improvements and event support.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5>Data Analytics Intern</h5>
+                                    <h6 class="text-primary">Pantech Prolabs</h6>
+                                    <p class="text-muted">Jan 2024 – Jul 2024</p>
+                                    <p>Preprocessed e-commerce data; built category features; discovered top-3 products drove 60% revenue.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h5>Associate Software Engineer</h5>
+                                    <h6 class="text-primary">Accenture Solutions</h6>
+                                    <p class="text-muted">Nov 2022 – Dec 2023</p>
+                                    <p>Built SQL + Power BI pipelines for loan performance; applied modeling/feature analysis to reveal repayment trends.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section-padding badass-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">05.</span>
+                            <span class="title-text">SKILLS</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card badass-card skills-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-code-slash fs-1 text-primary mb-3"></i>
+                                <h5 class="card-title">Languages/ML</h5>
+                                <div class="d-flex flex-wrap justify-content-center gap-2">
+                                    <span class="badge bg-primary">Python</span>
+                                    <span class="badge bg-primary">pandas</span>
+                                    <span class="badge bg-primary">scikit-learn</span>
+                                    <span class="badge bg-primary">XGBoost</span>
+                                    <span class="badge bg-primary">LightGBM</span>
+                                    <span class="badge bg-primary">R</span>
+                                    <span class="badge bg-primary">SQL</span>
+                                    <span class="badge bg-primary">Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card badass-card skills-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-tools fs-1 text-success mb-3"></i>
+                                <h5 class="card-title">Tools/Cloud</h5>
+                                <div class="d-flex flex-wrap justify-content-center gap-2">
+                                    <span class="badge bg-success">AWS</span>
+                                    <span class="badge bg-success">GCP</span>
+                                    <span class="badge bg-success">Power BI</span>
+                                    <span class="badge bg-success">Tableau</span>
+                                    <span class="badge bg-success">MongoDB</span>
+                                    <span class="badge bg-success">Excel</span>
+                                    <span class="badge bg-success">Git</span>
+                                    <span class="badge bg-success">Jupyter</span>
+                                    <span class="badge bg-success">PyCharm</span>
+                                    <span class="badge bg-success">Colab</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card badass-card skills-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-lightbulb fs-1 text-warning mb-3"></i>
+                                <h5 class="card-title">Focus Areas</h5>
+                                <div class="d-flex flex-wrap justify-content-center gap-2">
+                                    <span class="badge bg-warning text-dark">Feature Engineering</span>
+                                    <span class="badge bg-warning text-dark">ML Pipelines</span>
+                                    <span class="badge bg-warning text-dark">Model Explainability</span>
+                                    <span class="badge bg-warning text-dark">SHAP</span>
+                                    <span class="badge bg-warning text-dark">Data Visualization</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding badass-section-alt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="section-title text-center mb-5">
+                            <span class="title-number">06.</span>
+                            <span class="title-text">CONTACT</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="row g-4 mb-5">
+                            <div class="col-md-6 text-center">
+                                <div class="contact-item">
+                                    <i class="bi bi-envelope fs-2 text-primary mb-3"></i>
+                                    <h5>Email</h5>
+                                    <a href="mailto:siddharthsaravanan27@gmail.com" class="text-decoration-none">
+                                        siddharthsaravanan27@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <div class="contact-item">
+                                    <i class="bi bi-telephone fs-2 text-primary mb-3"></i>
+                                    <h5>Phone</h5>
+                                    <a href="tel:+12027439829" class="text-decoration-none">
+                                        +1-202-743-9829
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card badass-card">
+                            <div class="card-body">
+                                <form id="contactForm">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name *</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid name.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid email.
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Message *</label>
+                                        <textarea class="form-control" id="message" rows="5" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please provide a message.
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn badass-btn-primary">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="badass-footer py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0 footer-text">&copy; 2025 SIDDHARTH SARAVANAN. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-links">
+                        <a href="assets/resume.pdf" class="footer-link me-4" target="_blank" rel="noopener">RESUME</a>
+                        <a href="https://www.linkedin.com/in/siddharth-saravanan/" class="footer-link me-4" target="_blank" rel="noopener">LINKEDIN</a>
+                        <a href="https://github.com/siddharth-spyder" class="footer-link" target="_blank" rel="noopener">GITHUB</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project1ModalLabel">Image Steganalysis: Detect Hidden Information with ML</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Bitcamp Hackathon (Apr 2025)</h6>
+                    <p class="mb-3"><strong>Technologies:</strong> Python, scikit-learn, XGBoost, HOG/entropy features</p>
+                    <p>Built a comprehensive machine learning system to detect hidden messages in images using steganography detection techniques. The project involved creating a reproducible Python pipeline that preprocessed image data, extracted HOG and entropy-based features, and benchmarked multiple algorithms including Logistic Regression, Random Forest, and XGBoost.</p>
+                    <p>Key achievements include achieving high AUC and PR-AUC scores across different models, implementing feature importance analysis for model explainability, and delivering a complete solution within the 36-hour hackathon timeframe. The pipeline was designed with reproducibility in mind, featuring clear documentation and modular code structure.</p>
+                    <p>This project demonstrated proficiency in computer vision techniques, machine learning model comparison, and rapid prototyping under time constraints.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project2ModalLabel">Dating Platform Behavior & Prediction Analysis</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>GWU (Nov–Dec 2024)</h6>
+                    <p class="mb-3"><strong>Technologies:</strong> R, ggplot2, dplyr</p>
+                    <p>Conducted comprehensive analysis of a large-scale dating platform dataset containing over 60,000 user records. The project involved extensive data cleaning, feature engineering, and the development of predictive models to understand user behavior patterns and preferences.</p>
+                    <p>Created a replicable R pipeline that generated over 15 different visualizations, providing deep insights into user demographics, matching patterns, and engagement metrics. The analysis included statistical modeling to predict user success rates and identify key factors influencing platform engagement.</p>
+                    <p>The project showcased advanced data manipulation skills using dplyr, sophisticated visualization techniques with ggplot2, and the ability to extract meaningful business insights from complex behavioral data. All code was packaged into a reproducible pipeline with clear documentation for future analysis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3Modal" tabindex="-1" aria-labelledby="project3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project3ModalLabel">Virtual Police Station</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Capstone Project (Jul 2021–Apr 2022)</h6>
+                    <p class="mb-3"><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP</p>
+                    <p>Developed a comprehensive web application to digitize the crime reporting process, making it more accessible and efficient for citizens. The system featured a structured data intake process that normalized various types of crime reports into a standardized format.</p>
+                    <p>The application significantly reduced manual effort compared to traditional in-person filing by implementing automated validation, categorization, and routing of reports. Created an intuitive user interface that guided users through the reporting process while ensuring all necessary information was captured accurately.</p>
+                    <p>This capstone project demonstrated full-stack development capabilities, database design skills, and the ability to solve real-world problems through technology. The system improved accessibility for citizens who couldn't easily visit police stations in person and provided law enforcement with better-organized, searchable data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project4Modal" tabindex="-1" aria-labelledby="project4ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="project4ModalLabel">Eye on the Road</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Velammal Engineering College (Aug–Dec 2019)</h6>
+                    <p class="mb-3"><strong>Technologies:</strong> Web App, APIs</p>
+                    <p>Created an innovative route-planning application that integrated with MapMyIndia API to help users identify and avoid potholes during their commutes. The application provided real-time route optimization based on road conditions and user-reported obstacles.</p>
+                    <p>The system allowed users to report potholes and road hazards, creating a crowdsourced database of road conditions. Other users could then plan their routes to avoid these disruptions, leading to more efficient commutes and reduced vehicle wear and tear.</p>
+                    <p>This project demonstrated early proficiency in API integration, geolocation services, and creating user-centric solutions for everyday problems. The application showcased the potential of crowd-sourced data to improve urban mobility and infrastructure awareness.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Toast -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="successToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <i class="bi bi-check-circle text-success me-2"></i>
+                <strong class="me-auto">Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Message ready to send!
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
